@@ -4337,7 +4337,7 @@ QwBEAF8AUgBPAE0AAQBFAHgAcAByAGUAcwBzAA==
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{96DB19DC-CE67-425D-BDB6-9EFCE98F1E94}</td><td/></row>
+		<row><td>ProductCode</td><td>{404B40AC-4B8C-4504-BAC7-7386E18F3342}</td><td/></row>
 		<row><td>ProductName</td><td>CompliaShield File Checksum</td><td/></row>
 		<row><td>ProductVersion</td><td>1.0.0.2</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>

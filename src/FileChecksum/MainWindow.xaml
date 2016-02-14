@@ -18,23 +18,68 @@
         <TextBlock x:Name="txtGuide" TextWrapping="Wrap" FontFamily="Segoe UI Light" Background="Transparent" Foreground="White" Margin="10,68,11,0" VerticalAlignment="Top" TextAlignment="Center" Height="25" Text="Drag &amp; drop a file or click the button to upload a file."  />
         <TextBlock x:Name="txtProductName" TextWrapping="Wrap" Text="MD5 and SHA1 File Checksum" FontFamily="Segoe UI Light" FontSize="18.667" Background="Transparent" Foreground="White" Margin="10,15,10,0" VerticalAlignment="Top" TextAlignment="Center"  />
 
-
-        <TextBox x:Name="tboxMd5" Margin="10,216,10,0" Cursor="IBeam" Visibility="Visible" FontFamily="Courier New" FontSize="13.333" Background="#59FFFFFF" Foreground="Black"
+        <TextBox x:Name="tboxMd5" 
+                 Margin="10,216,10,0"
+                 Cursor="IBeam" 
+                 Visibility="Visible" 
+                 FontFamily="Courier New" 
+                 FontSize="13.333" 
+                 Background="#59FFFFFF" 
+                 Foreground="Black"
                  AcceptsReturn="True"
                  TextWrapping="Wrap"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
-                 ScrollViewer.VerticalScrollBarVisibility="Auto" VerticalAlignment="Top" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalScrollBarVisibility="Disabled" SelectionBrush="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Padding="3" BorderBrush="#FFABADB3" BorderThickness="0" />
-        <TextBox x:Name="tboxSha1" Margin="10,263,10,0" Cursor="IBeam" Visibility="Visible" FontFamily="Courier New" FontSize="13.333" Background="#59FFFFFF" Foreground="Black"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                 VerticalAlignment="Top" 
+                 TextAlignment="Center" 
+                 HorizontalContentAlignment="Center" 
+                 VerticalScrollBarVisibility="Disabled" 
+                 SelectionBrush="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" 
+                 Padding="3" 
+                 BorderBrush="#FFABADB3" 
+                 BorderThickness="0"  />
+        <TextBox x:Name="tboxSha1" 
+                 Margin="10,263,10,0" 
+                 Cursor="IBeam" 
+                 Visibility="Visible" 
+                 FontFamily="Courier New" 
+                 FontSize="13.333" 
+                 Background="#59FFFFFF" 
+                 Foreground="Black"
                  AcceptsReturn="True"
                  TextWrapping="Wrap"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
-                 ScrollViewer.VerticalScrollBarVisibility="Auto" VerticalAlignment="Top" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalScrollBarVisibility="Disabled" SelectionBrush="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Padding="3" BorderBrush="#FFABADB3" BorderThickness="0" />
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                 VerticalAlignment="Top" 
+                 TextAlignment="Center" 
+                 HorizontalContentAlignment="Center" 
+                 VerticalScrollBarVisibility="Disabled" 
+                 SelectionBrush="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" 
+                 Padding="3" 
+                 BorderBrush="#FFABADB3" 
+                 BorderThickness="0" />
         <TextBlock x:Name="txtGuide_MD5" TextWrapping="Wrap" Text="MD5" FontFamily="Segoe UI Light" Background="Transparent" Foreground="White" Margin="10,196,10,0" VerticalAlignment="Top" TextAlignment="Center" Opacity="0.75"  />
         <TextBlock x:Name="txtGuide_MD5_Copy" TextWrapping="Wrap" Text="SHA1" FontFamily="Segoe UI Light" Background="Transparent" Foreground="White" Margin="10,243,10,0" VerticalAlignment="Top" TextAlignment="Center" Opacity="0.75"  />
-        <TextBox x:Name="tboxfileName" Margin="10,169,10,0" Cursor="IBeam" Visibility="Visible" FontFamily="Courier New" Background="#59FFFFFF" Foreground="Black"
-    		AcceptsReturn="True"
-    		ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
-    		ScrollViewer.VerticalScrollBarVisibility="Auto" VerticalAlignment="Top" TextAlignment="Center" VerticalScrollBarVisibility="Disabled" IsReadOnly="True" SelectionOpacity="1" FontSize="13.333" SelectionBrush="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Padding="3" BorderBrush="#FFABADB3" BorderThickness="0" />
+        <TextBox x:Name="tboxfileName" 
+                 Margin="10,169,10,0"
+                 Cursor="IBeam" 
+                 Visibility="Visible" 
+                 FontFamily="Courier New" 
+                 FontSize="13.333" 
+                 Background="#59FFFFFF" 
+                 Foreground="Black"
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                 VerticalAlignment="Top" 
+                 TextAlignment="Center" 
+                 HorizontalContentAlignment="Center" 
+                 VerticalScrollBarVisibility="Disabled" 
+                 SelectionBrush="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" 
+                 Padding="3" 
+                 BorderBrush="#FFABADB3" 
+                 BorderThickness="0"  />
         <TextBlock x:Name="txtGuide_MD5_Copy1" TextWrapping="Wrap" Text="File Name" FontFamily="Segoe UI Light" Background="Transparent" Foreground="White" Margin="10,148,11,0" VerticalAlignment="Top" TextAlignment="Center" Opacity="0.75" RenderTransformOrigin="0.5,0.5" />
         <Label x:Name="lblError" Content="Error message here" FontSize="13.333" Background="White" Foreground="#FFD40909" FontFamily="Segoe UI Light" Margin="60,107.75,60,220.75" HorizontalAlignment="Center" BorderThickness="1" Width="275" Cursor="Help" VerticalAlignment="Center" UseLayoutRounding="False" HorizontalContentAlignment="Center" Visibility="Hidden" />
         <TextBlock x:Name="txtGuide_Copy" MouseDown="txtGuide_Copy_MouseDown" TextWrapping="Wrap" Text="Licensed under Apache License 2.0" FontFamily="Segoe UI Light" Background="Transparent" Foreground="White" Margin="10,0,10,54.5" VerticalAlignment="Bottom" Opacity="0.5" TextAlignment="Center" ToolTip="Click to view license" Cursor="Hand"  />
